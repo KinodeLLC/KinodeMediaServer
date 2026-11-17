@@ -1,0 +1,65 @@
+name: Bug report
+description: Something isn't working.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time. The more of this you fill in, the faster it gets fixed.
+  - type: input
+    id: version
+    attributes:
+      label: Kinode version
+      description: Settings, Updates shows it. If the server won't start, the file name you downloaded is fine.
+      placeholder: "1.5.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: What did you install?
+      options:
+        - Windows installer
+        - Linux .deb (amd64)
+        - Linux .deb (arm64)
+        - Linux tarball (x64)
+        - Linux tarball (arm64)
+        - Docker
+        - Not the server, it's one of the apps
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: What the server runs on, or the device the app is on.
+      placeholder: "Raspberry Pi 5, 8 GB / Windows PC with RTX 4060 / Pixel 8 / Roku Express"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system and version
+      placeholder: "Raspberry Pi OS 64-bit (Bookworm) / Windows 11 24H2 / Ubuntu 24.04"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or error messages
+      description: |
+        Linux: `journalctl -u kinode-media-server -n 200 --no-pager`
+        Windows: `C:\ProgramData\Kinode Media Server\logs\KinodeMediaServer.err.log`
+        Check there are no passwords or addresses in it you don't want public.
+      render: text
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, the file type that failed, whether it worked before.

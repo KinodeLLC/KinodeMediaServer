@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/KinodeLLC/MediaServer/discussions
+    about: Ask how something works or suggest something new.
+  - name: Docs
+    url: https://kinode.tv/docs
+    about: Setup, ports, remote access and troubleshooting.
