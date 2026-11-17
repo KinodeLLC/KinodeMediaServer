@@ -4,6 +4,8 @@ Kinode is a free home media server. Install it on the computer that holds your m
 
 There is no paid tier. Remote streaming, hardware transcoding, skip intro, sharing and the apps are all in the free download.
 
+![A movie library in the web player](docs/images/web-library.webp)
+
 This repo is where you get downloads, report bugs and ask questions. The code itself is not here.
 
 - Website: https://kinode.tv
@@ -37,6 +39,17 @@ A few honest notes:
 - Android phones, tablets and Google TV (coming to Google Play)
 - Roku (coming to the Roku Channel Store, sideload for now)
 - Chromecast, from the web player or the Android app
+
+## Screenshots
+
+| | |
+|---|---|
+| ![A movie page with cast in the web player](docs/images/web-detail.webp) | ![The movie library on Google TV](docs/images/tv-movies.webp) |
+| A movie page in the web player | The same library on Google TV |
+
+<img src="docs/images/phone-home.webp" width="280" alt="The Android app home screen">
+
+The Android app home screen.
 
 ## What it does
 
