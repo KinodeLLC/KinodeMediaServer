@@ -27,7 +27,7 @@ The newest version is **1.5.2** for Windows. Linux is on **1.5.0** for now, and 
 
 Install guides: [Windows](docs/windows.md) · [Linux, Raspberry Pi and Docker](docs/linux.md)
 
-Get the files from https://kinode.tv/download or the [Releases page](../../releases) here. Both list SHA-256 checksums.
+Everything is on https://kinode.tv/download, with SHA-256 checksums.
 
 A few honest notes:
 

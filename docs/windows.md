@@ -2,7 +2,7 @@
 
 Version 1.5.2, for Windows 10 and 11 on 64-bit Intel or AMD. There's no ARM or 32-bit build for Windows right now.
 
-Get `KinodeMediaServer-1.5.2-x64.exe` from https://kinode.tv/download or the [Releases page](https://github.com/KinodeLLC/MediaServer/releases). Run it on the computer that holds your media.
+Get `KinodeMediaServer-1.5.2-x64.exe` from https://kinode.tv/download. Run it on the computer that holds your media.
 
 ## The unknown publisher warning
 
