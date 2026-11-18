@@ -1,12 +1,12 @@
 # Installing on Windows
 
-Version 1.5.0, for Windows 10 and 11 on 64-bit Intel or AMD. There's no ARM build of 1.5.0 for Windows and no 32-bit build.
+Version 1.5.2, for Windows 10 and 11 on 64-bit Intel or AMD. There's no ARM or 32-bit build for Windows right now.
 
-Get `KinodeMediaServer-1.5.0-x64.exe` from the [Releases page](https://github.com/KinodeLLC/MediaServer/releases/latest) or https://kinode.tv/download. Run it on the computer that holds your media.
+Get `KinodeMediaServer-1.5.2-x64.exe` from https://kinode.tv/download or the [Releases page](https://github.com/KinodeLLC/MediaServer/releases). Run it on the computer that holds your media.
 
 ## The unknown publisher warning
 
-This release isn't signed, so Windows shows a blue SmartScreen box saying it protected your PC. Choose **More info**, then **Run anyway**. The warning is about the missing signature, not about what the installer does.
+The installer isn't signed, so Windows shows a blue SmartScreen box saying it protected your PC. Choose **More info**, then **Run anyway**. The warning is about the missing signature, not about what the installer does.
 
 ## What setup asks
 

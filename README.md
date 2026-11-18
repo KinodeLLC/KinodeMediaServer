@@ -15,11 +15,11 @@ This repo is where you get downloads, report bugs and ask questions. The code it
 
 ## Get it
 
-The current release is **1.5.0**.
+The newest version is **1.5.2** for Windows. Linux is on **1.5.0** for now, and 1.5.2 for Linux is on the way.
 
 | What you have | Get this |
 |---|---|
-| Windows 10 or 11, 64-bit (Intel or AMD) | Windows installer |
+| Windows 10 or 11, 64-bit (Intel or AMD) | Windows installer (1.5.2) |
 | Ubuntu, Debian, Mint (Intel or AMD) | `.deb` for amd64 |
 | Any other 64-bit Linux with systemd | Linux tarball for x64 |
 | 64-bit ARM Linux, like a Raspberry Pi 4 or 5 | `.deb` or tarball for arm64 (see the note below) |
@@ -27,7 +27,7 @@ The current release is **1.5.0**.
 
 Install guides: [Windows](docs/windows.md) · [Linux, Raspberry Pi and Docker](docs/linux.md)
 
-Get the files from the [Releases page](../../releases/latest) here or from https://kinode.tv/download. They're the same files, and both list SHA-256 checksums.
+Get the files from https://kinode.tv/download or the [Releases page](../../releases) here. Both list SHA-256 checksums.
 
 A few honest notes:
 
@@ -61,7 +61,11 @@ The Android app home screen.
 - Profiles for everyone in the house, kid profiles with rating limits, bedtimes and time limits
 - Share only the libraries you choose with family or friends
 - Watch Together rooms with synced playback and chat
-- Live channels made from your own library
+- Live channels made from your own library, and Live TV from M3U playlists, Xtream accounts or HDHomeRun tuners, with a guide
+- DLNA, so TVs without a Kinode app can play from the server on your home network
+- Age ratings on every poster and optional parental controls, with a parent PIN
+- Private libraries that stay out of sight until you enter a PIN
+- If a file goes missing, its title stays in your library with a FILE MISSING mark instead of disappearing
 - Music: lossless and hi-res, gapless, lyrics, queue, playlists, mixes, ListenBrainz
 - Remote access over HTTPS with a certificate set up for you, on the port you already forwarded
 

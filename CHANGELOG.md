@@ -1,5 +1,30 @@
 # What changed
 
+## 1.5.2 (17 November 2026)
+
+Windows only so far. Linux 1.5.2 is coming.
+
+New
+- Missing files: if a movie, episode or song file goes missing, its title stays in your library with a FILE MISSING mark on the poster, and the dashboard opens with a list of what's missing and what to do about each one
+- Every file in your library is recorded twice, in the server's database and in dated copies kept outside it, and checked after each scan and every few hours
+- A drive or share that can't be reached shows once as offline, instead of as thousands of missing files
+- Age ratings on the top right of every poster, and optional parental controls for each profile and account, with a parent PIN to unlock a single title
+- Private libraries locked with a PIN that stay completely out of sight until unlocked
+- Live TV: add M3U playlists, Xtream accounts or HDHomeRun tuners and watch with a TV guide
+- TVs without a Kinode app can play your library on your home network through DLNA. It's on by default and you can switch it off in Settings
+- Every setting is reworded in plain words, with a short hint under each one
+
+Fixed
+- A library scan no longer takes titles out of your library when their file can't be found. You decide what happens to them
+
+The installer is unsigned, like 1.5.0.
+
+## 1.5.1 (17 November 2026)
+
+Not released on its own. Its changes are in 1.5.2.
+
+- Music: every format plays (converted when needed), full-screen Now Playing with synced lyrics, an editable queue that's still there next time, Liked songs and mixes, volume leveling with ReplayGain, M3U import and export, ListenBrainz, a sleep timer, and Hi-Res and Lossless badges
+
 ## 1.5.0 (13 November 2026)
 
 New
