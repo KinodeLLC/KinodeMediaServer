@@ -25,6 +25,8 @@ The current release is **1.5.0**.
 | 64-bit ARM Linux, like a Raspberry Pi 4 or 5 | `.deb` or tarball for arm64 (see the note below) |
 | Docker | Build it yourself from the tarball, see [docs/linux.md](docs/linux.md) |
 
+Install guides: [Windows](docs/windows.md) · [Linux, Raspberry Pi and Docker](docs/linux.md)
+
 Get the files from the [Releases page](../../releases/latest) here or from https://kinode.tv/download. They're the same files, and both list SHA-256 checksums.
 
 A few honest notes:
@@ -77,4 +79,4 @@ Your media never leaves your machine. The Kinode hub (the free account on kinode
 
 ## What changed
 
-See [CHANGELOG.md](CHANGELOG.md).
+See [CHANGELOG.md](CHANGELOG.md). What's coming is in [ROADMAP.md](ROADMAP.md).
