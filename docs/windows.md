@@ -43,7 +43,7 @@ sc query KinodeMediaServer
 net start KinodeMediaServer
 ```
 
-If it starts and stops again, the error is in `C:\ProgramData\Kinode Media Server\logs\KinodeMediaServer.err.log`. Please attach it if you [open an issue](https://github.com/KinodeLLC/MediaServer/issues/new/choose).
+If it starts and stops again, the error is in `C:\ProgramData\Kinode Media Server\logs\KinodeMediaServer.err.log`. Please attach it if you [open an issue](https://github.com/KinodeLLC/KinodeMediaServer/issues/new/choose).
 
 ## Uninstalling
 
