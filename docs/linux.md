@@ -33,7 +33,7 @@ Add `--open-firewall` to open the port in ufw or firewalld. The tarball install 
 
 ## Raspberry Pi and other ARM boards
 
-The arm64 builds have **not** been run on real ARM hardware yet. If you try one, please [open an issue](https://github.com/KinodeLLC/MediaServer/issues/new/choose) and say how it went, even if it just worked.
+The arm64 builds have **not** been run on real ARM hardware yet. If you try one, please [open an issue](https://github.com/KinodeLLC/KinodeMediaServer/issues/new/choose) and say how it went, even if it just worked.
 
 What should matter:
 
