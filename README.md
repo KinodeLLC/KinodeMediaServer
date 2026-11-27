@@ -15,11 +15,9 @@ This repo is where you get downloads, report bugs and ask questions. The code it
 
 ## Get it
 
-The newest version is **1.5.2** for Windows. Linux is on **1.5.0** for now, and 1.5.2 for Linux is on the way.
-
 | What you have | Get this |
 |---|---|
-| Windows 10 or 11, 64-bit (Intel or AMD) | Windows installer (1.5.2) |
+| Windows 10 or 11, 64-bit (Intel or AMD) | Windows installer |
 | Ubuntu, Debian, Mint (Intel or AMD) | `.deb` for amd64 |
 | Any other 64-bit Linux with systemd | Linux tarball for x64 |
 | 64-bit ARM Linux, like a Raspberry Pi 4 or 5 | `.deb` or tarball for arm64 (see the note below) |
@@ -31,7 +29,7 @@ Everything is on https://kinode.tv/download, with SHA-256 checksums.
 
 A few honest notes:
 
-- **The Windows installer is not signed right now.** Windows will show a blue SmartScreen box about an unknown publisher. Choose More info, then Run anyway. Signing is being sorted out.
+- **Check the Windows publisher before running the installer.** It should say **KINODE LLC**. If Windows shows **Unknown publisher**, a different publisher, or an invalid signature, don't run the installer. See the [Windows install guide](docs/windows.md#verify-the-installer).
 - **The ARM builds have never been run on real ARM hardware.** They are built from the same code and checked to contain ARM binaries, but nobody has tried them on a Pi yet. If you do, please tell me how it went, good or bad, in an issue.
 - **There is no Docker image to pull yet.** There is a Dockerfile and compose file that build one from the Linux tarball. They have not been run end to end.
 
