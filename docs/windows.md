@@ -1,18 +1,17 @@
 # Installing on Windows
 
-Version 1.5.2, for Windows 10 and 11 on 64-bit Intel or AMD. There's no ARM or 32-bit build for Windows right now.
+For Windows 10 and 11 on 64-bit Intel or AMD. There's no ARM or 32-bit build for Windows right now.
 
-Get `KinodeMediaServer-1.5.2-x64.exe` from https://kinode.tv/download. Run it on the computer that holds your media.
+Get the current installer and SHA-256 checksum from [kinode.tv/download](https://kinode.tv/download). Install it on the computer that holds your media.
 
-## The unknown publisher warning
+## Verify the installer
 
-The installer isn't signed, so Windows shows a blue SmartScreen box saying it protected your PC. Choose **More info**, then **Run anyway**. The warning is about the missing signature, not about what the installer does.
+Before running the installer, right-click the downloaded file, choose **Properties → Digital Signatures**, then select the signature and open **Details**. Confirm that the signer is **KINODE LLC** and Windows says the signature is valid. If the signature is missing or invalid, or Windows lists an unknown or different publisher, don't run the file. Download a fresh copy from the official page and check it again.
 
 ## What setup asks
 
-1. **What to install.** The server on its own, or the server and the Discord bot.
-2. **Port.** 5466 by default. Only change it if something else on the machine already uses it.
-3. **Firewall.** It adds a rule for your private network so your phone and TV can reach the server. It doesn't open anything to the internet.
+1. **Port.** 5466 by default. Only change it if something else on the machine already uses it.
+2. **Firewall.** It adds a rule for your private network so your phone and TV can reach the server. It doesn't open anything to the internet.
 
 Setup takes about a minute. Your browser opens at `http://localhost:5466` when it's done. Create your account, add your media folders and start watching. The first account you make is the owner of the server, and it only exists on your machine.
 
@@ -30,7 +29,6 @@ It runs as a Windows service called Kinode Media Server and starts with the mach
 |---|---|
 | 5466 TCP | The web app. This is the one you open in a browser. |
 | 5467 UDP | Lets apps on your network find the server without typing an address |
-| 5468 TCP | The Discord bot, only if you installed it |
 
 ## Watching away from home
 
